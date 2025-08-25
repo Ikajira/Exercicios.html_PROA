@@ -1,0 +1,101 @@
+*{ 
+    position: relative; 
+    margin: 0%; 
+    padding: 0%; 
+    border: 0%; 
+} 
+
+main{ 
+    width: 90%; 
+    height: auto; 
+    background-color: #ccc; 
+    margin: auto; 
+    font-size: 3.0em; 
+    font-family: Verdana; 
+    color: white; 
+    text-align: center; 
+} 
+
+header{ 
+    width: 100%; 
+    height: 100px; 
+    background-color: black; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+} 
+
+#topo{ 
+    text-align: left; 
+    background-color: blue; 
+} 
+
+#left{ 
+    float: left; 
+    width: 20%; 
+    height: 635px; 
+    background-color: rgb(161, 231, 167); 
+} 
+
+section{ 
+    float: left; 
+    width: 60%; 
+    height: 635px; 
+    background-color: rgb(238, 160, 218); 
+    margin-bottom: 10px; 
+} 
+
+section header{ 
+    width: 95%; 
+    height: 50px; 
+    margin: auto; 
+    margin-bottom: 10px; 
+    margin-top: 5px; 
+    font-size: 25px; 
+} 
+
+section div{ 
+    margin: auto; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    width: 95%; 
+    height: 230px; 
+    background-color: rgb(182, 133, 59); 
+} 
+
+section p{ 
+    margin-bottom: 10px; 
+    text-align: left; 
+    font-size: 0.3em; 
+    font-family: Arial; 
+    margin: auto; 
+    width: 95%; 
+    height: 100px; 
+    background-color: rgb(95, 95, 196); 
+} 
+
+section #central_div{ 
+    width: 100%; 
+    height: 150px; 
+    margin-top: 10px; 
+    display: flex; 
+    justify-content: space-between; 
+} 
+
+.even_div{ 
+    width: 28%; 
+    height: 150px; 
+    margin: auto; 
+} 
+
+aside{ 
+    float: left; 
+    width: 20%; 
+    height: 635px; 
+    background-color: rgb(226, 43, 217); 
+} 
+
+footer{ 
+    clear: left; 
+    text-align: center; 
+} 

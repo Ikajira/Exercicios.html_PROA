@@ -1,0 +1,97 @@
+
+*{
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+
+main{
+    font-family: Verdana;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    background-color: #ccc;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(198, 228, 67);
+    text-align: center;
+    margin-top: 25px;
+}
+
+header h1{
+    padding-top: 30px;
+}
+
+#le{
+    float: left;
+    width: 25%;
+    height: 675px;
+    background-color: aqua;
+
+}
+
+section nav{
+    width: 390px;
+    height: 300px;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+section aside{
+    margin: auto;
+    width: 390px;
+    height: 300px;
+    background-color: white;
+}
+
+#ld{
+    float: left;
+    width: 75%;
+    height: 675px;
+    background-color: blueviolet;
+}
+
+section article{
+    margin: auto;
+    margin-top: 20px;
+    width: 98%;
+    height: 660px;
+    background-color: blanchedalmond;
+ }
+
+ section h1{
+    padding-top: 10px;
+    width: 100%;
+    height: 5%;
+    margin: auto;
+    text-align: center;
+    background-color: aqua;
+ }
+
+ section p{
+    margin-top: 10px;
+    width: 100%;
+    height: 35%;
+    background-color: rgb(163, 63, 63);
+ }
+
+ section div{
+    margin-top: 10px;
+    width: 100%;
+    height: 45%;
+    background-color: rgb(171, 120, 219);
+ }
+
+ footer{
+    color: white;
+    clear: left;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(43, 5, 5);
+ }
