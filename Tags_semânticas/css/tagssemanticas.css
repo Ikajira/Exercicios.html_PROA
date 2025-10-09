@@ -8,7 +8,7 @@
 
 main{
     position: relative;
-    width: 90%;
+    width:70%;
     height: auto;
     background-color: #ccc;
     margin: auto;
@@ -84,16 +84,15 @@ nav a:hover{
 #le div{
     position: relative;
     width: 90%;
-    height: 180px;
+    height: 25px;
     background-color: #313131;
     color: white;
     margin: auto;
 }
 
 #le aside{
-    position: relative;
     width: 90%;
-    height: 180px;
+    height: 430px;
     margin: auto;
 }
 
