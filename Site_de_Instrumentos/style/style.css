@@ -1,0 +1,287 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(../assets/imagens_atividade_violão/imagens/guitarra_fundo_body.jpg);
+    background-repeat: no-repeat;
+    width: 90%;
+    margin: auto;
+}
+
+header {
+    background-image: url(../assets/imagens_atividade_violão/imagens/guitarras_header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 40px 50px 0px;
+    display: flex;
+    justify-content: end;
+    object-fit: cover;
+
+    & nav{
+        display: flex;
+        gap: 10px;
+        background-color: white;
+        padding: 10px;
+    }
+
+    & a{
+        color: red;
+    }
+}
+
+main{
+    & #secao-principal{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: row;
+        background-color: red;
+        padding: 60px;
+        gap: 50px;
+    }
+
+    & img{
+        width: 50%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    & #texto-conteudo{
+        padding: 80px;
+        background-color: #BA8A8A;
+        color: white;
+        width: 50%;
+    }
+
+    & #texto-conteudo h1{
+        margin-bottom: 30px;
+        font-size: 24px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+        main{
+        & #secao-principal{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        & img{
+            width: 100%;
+        }
+
+        & #texto-conteudo{
+            width: 100%;
+        }
+    }
+    
+}
+
+#vitrine-items{
+
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    gap: 30px;
+    padding: 80px;
+
+    & img{
+      width: 100%;
+      height: 300px;  
+      object-fit: contain;
+    }   
+
+    & .card-produto{
+        text-align: center;
+    }
+
+    & span{
+        color: red;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    
+    #vitrine-items{
+        flex-wrap: wrap;
+        justify-content: center;
+
+        & .card-produto{
+            flex: 0 0 40%;
+            background-color: white;
+        }
+
+        & p{
+            margin-top: 20px;
+        }
+
+        & span{
+            margin-top: 20px;
+            font-size: 25px;
+        }
+    }
+
+    @media screen and (max-width: 930px) {
+    
+     #vitrine-items{
+        & .card-produto{
+            flex: 0 0 100%;
+            background-color: white;
+        }
+
+    }
+
+    }
+}
+
+#mapa-localizacao{
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: row;
+        background-color: #B95511;
+        gap: 30px;
+        padding: 60px;
+        border-top: 20px solid #BA8A8A;
+        border-bottom: 20px solid #BA8A8A;
+        color: white;
+        
+    & iframe{
+        width: 50%;
+    }
+
+    & #informacoes-loja{
+        width: 50%;
+        padding: 80px;
+        background-color: #BA8A8A;
+    }
+
+    h1{
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    p{
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    #mapa-localizacao{
+        flex-direction: column;
+
+        & iframe{
+            width: 100%;
+        }
+
+        & #informacoes-loja{
+            width: 100%;
+            padding: 80px;
+            background-color: #BA8A8A;
+        }
+    }
+    
+}
+
+#area-contato{
+    display: flex;
+    flex-direction: row;
+    padding: 35px;
+    gap: 100px;
+    border-bottom: 20px solid #BA8A8A;
+
+
+    & img{
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    & #formulario-dados{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+
+        & input{
+            height: 40px;
+            margin-bottom: 30px;
+        }
+
+        & textarea{
+            width: 50%; 
+            margin-bottom: 30px;
+            height: 200px;
+        }
+
+        button{
+            height: 50px;
+        }
+    }
+
+    & #midias-sociais{
+        margin: auto;
+
+        & h1{
+            font-size: 24px;
+            color: blue;
+            margin-bottom: 30px;
+        }
+
+        & img{
+            margin-left: 30px;
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    
+    #area-contato{
+    flex-direction: column;  
+    
+    & #formulario-dados{
+        margin: auto;
+    
+        & textarea{
+            margin: auto;
+            margin-bottom: 10px;
+        }
+    }
+    }
+
+}
+
+footer{
+   padding-top: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
+    & img{
+        width: 30px;
+    }
+
+    & h1{
+        font-size: 18px;
+    }
+}
