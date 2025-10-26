@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url(fonts/LibreBaskerville-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url(fonts/LibreBaskerville-Bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url(fonts/LibreBaskerville-Italic.ttf) format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+body {
+    background-color: #C3D8E9;
+    overflow-x: hidden;
+}
+
+/* Botões */
+.btn-transparente {
+    border: 1px solid;
+    padding: 20px 30px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.btn-destaque {
+    padding: 20px;
+    background-color: #12615E;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.menu-navegacao {
+    display: flex;
+    padding: 15px 0 0 40px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.menu-navegacao a {
+    text-decoration: none;
+    color: #242323;
+    font-size: 16px;
+}
+
+.marca {
+    margin: auto;
+}
+
+.marca img {
+    max-width: 100%;
+    height: auto;
+}
+
+.area-botoes {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* Seção principal */
+.secao-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 300px 40px;
+    gap: 50px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+/* Textos principais */
+.bloco-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 550px;
+}
+
+.bloco-texto h1 {
+    color: #525252;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 1.1;
+    font-family: 'Libre Baskerville';
+}
+
+.bloco-texto p {
+    color: #525252;
+    font-size: 1.4rem;
+    margin-top: 10px;
+    font-family: 'Libre Baskerville';
+}
+
+.bloco-texto button {
+    width: auto;
+    padding: 15px 30px;
+    align-self: flex-start;
+    margin-top: 40px;
+}
+
+/* Cartão principal */
+.cartao-loja {
+    background-color: #FFE4E1;
+    border: 1px solid #000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 100%;
+}
+
+.topo-cartao {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.topo-cartao img {
+    object-fit: contain;
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.cartao-loja h2 {
+    color: #E8998F;
+    padding: 10px;
+    text-align: center;
+}
+
+.cartao-loja img {
+    padding: 10px 160px 30px 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Janela do carrinho */
+.janela-carrinho {
+    position: absolute;
+    top: 580px;
+    right: 380px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid;
+    padding-bottom: 20px;
+    gap: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+    width: 220px;
+}
+
+.janela-carrinho h3 {
+    border-bottom: 2px solid;
+    padding: 15px;
+    font-size: 1rem;
+}
+
+.janela-carrinho button {
+    padding: 5px;
+    background-color: #12615E;
+    color: #fff;
+    margin: auto;
+    width: 80%;
+}
+
+@media (max-width: 1400px) {
+    .janela-carrinho {
+        right: 30px;
+    }
+}
+
+@media (max-width: 960px) {
+    .cabecalho {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 15px;
+    }
+
+    .menu-navegacao {
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .area-botoes {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .secao-principal {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .bloco-texto h1 {
+        font-size: 2.8rem;
+    }
+}
