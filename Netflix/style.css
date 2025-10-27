@@ -81,10 +81,7 @@ body {
 .banner-principal {
 	position: relative;
 	height: 80vh;
-	background: linear-gradient(to bottom, rgba(20, 20, 20, 0) 0%, rgba(20, 20, 20, 1) 100%),
-		linear-gradient(to right, rgba(20, 20, 20, 0.8) 0%, transparent 50%),
-		url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800"><defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:%23443322;stop-opacity:1"/><stop offset="100%" style="stop-color:%23665544;stop-opacity:1"/></linearGradient></defs><rect fill="url(%23bg)" width="1400" height="800"/><ellipse cx="700" cy="400" rx="300" ry="200" fill="%23d4a574" opacity="0.3"/></svg>');
-	background-size: cover;
+	background-image: url(./img/CARAMELO.jpg);
 	background-position: center;
 	display: flex;
 	align-items: center;
@@ -163,6 +160,7 @@ body {
 .titulo-linha {
 	font-size: 20px;
 	font-weight: bold;
+	margin-top: 30px;
 	margin-bottom: 15px;
 	display: flex;
 	align-items: center;
@@ -210,6 +208,7 @@ body {
 	cursor: pointer;
 	transition: transform 0.3s;
 	background: #2a2a2a;
+	background-size: cover;
 }
 
 .cartao-conteudo:hover {
@@ -267,6 +266,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	background-size: cover;
 }
 
 footer {
